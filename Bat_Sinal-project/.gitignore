@@ -4,6 +4,7 @@ android/app/build/
 ios/build/
 *.apk
 *.aab
+node_modules
 
 # React Native specific
 *.log
