@@ -20,7 +20,7 @@
     "baseUrl": ".",                              // Define o diretório raiz para resolver módulos
     "paths": {                                   // Mapeamento de caminhos para atalhos de importação
       "@components/*": ["src/components/*"],
-      "@assets/*": ["src/assets/*"],
+      "@assets/*": ["assets/*"],
       "@screens/*": ["src/screens/*"],
       "@utils/*": ["src/utils/*"]
     }
@@ -34,5 +34,5 @@
   "include": [
     "src/**/*",        // Inclui todos os arquivos dentro da pasta `src` para verificação de tipos
     "index.js"         // Inclui o arquivo principal `index.js`
-  ]
+, "assets"  ]
 }
