@@ -14,7 +14,11 @@ export function AppNavigator() {
           component={Home}
           options={{ headerShown: false }}
         />
-        <Stack.Screen name="Form" component={Form} />
+        <Stack.Screen
+          name="Form"
+          component={Form}
+          options={{ headerShown: false }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

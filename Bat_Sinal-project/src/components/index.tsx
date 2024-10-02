@@ -1,3 +1,3 @@
-import InputTextForm from "./InputTextForm";
+import CustomInputForm from "./CustomInputForm";
 
-export { InputTextForm };
+export { CustomInputForm };
