@@ -8,7 +8,7 @@ export default function App(): React.JSX.Element {
     <SafeAreaView style={{ flex: 1 }}>
       <StatusBar barStyle="light-content" backgroundColor="#155c58" />
       <Pressable onPress={Keyboard.dismiss} style={globalStyles.appBackground}>
-        <AppNavigator />
+ <AppNavigator />
       </Pressable>
     </SafeAreaView>
   );
